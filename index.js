@@ -2,9 +2,9 @@ let person = {
     name : "abhishek",
     age : 20,
     city : "delhi",
-    greet : () => {
-        console.log("Hello, my name is " + this.name);
-    }
+    mobile : 1234567890,
+    job : "developer"
 }
 
-console.log(person.greet()); 
+person['job'] = "software engineer"; // Changing the job property
+console.log(person.job); // Output: software engineer
