@@ -1,4 +1,3 @@
-
 let person = {
     name : "abhishek",
     age : 20,
